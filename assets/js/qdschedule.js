@@ -107,9 +107,9 @@ function ScheduleViewModel(){
    }
 
    self.exportData = function() {
-      alert(ko.toJSON(self.lines()));
+     // alert(ko.toJSON(self.lines()));
       var csv = ConvertToCSV(ko.toJSON(self.lines()));
-      alert(csv);
+      //alert(csv);
 
    }
 
